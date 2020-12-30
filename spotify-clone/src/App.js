@@ -14,8 +14,15 @@ function App() {
     window.location.hash = '';
     const _token = hash.access_token;
     console.log('selam ben token', token);
+
+    //if there is a token, do this
     if (_token) {
       setToken(_token);
+
+      spotify.setAccessToken(_token);
+      spotify.getMe().then(user => {
+        console.log(user);
+      });
     }
   }, []);
   return <div className='app'>{token ? <h1>logged in</h1> : <Login />}</div>;
