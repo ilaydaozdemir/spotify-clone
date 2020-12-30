@@ -1,9 +1,10 @@
-import './App.css';
+import '../src/css/App.css';
+import Login from './component/Login';
 
 function App() {
   return (
     <div className='app'>
-      <h1>Hey guys, I'm creating a Spotify clone using React.js</h1>
+      <Login />
     </div>
   );
 }
