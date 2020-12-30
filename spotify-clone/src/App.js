@@ -2,7 +2,9 @@ import { useEffect, useState } from 'react';
 import '../src/css/App.css';
 import Login from './component/Login';
 import { getTokenFromUrl } from './spotify';
+import SpotifyWebApi from 'spotify-web-api-js';
 
+const spotify = new SpotifyWebApi();
 function App() {
   const [token, setToken] = useState(null);
 
