@@ -15,7 +15,6 @@ function App() {
     const hash = getTokenFromUrl();
     window.location.hash = '';
     const _token = hash.access_token;
-    console.log('Hi', token);
 
     //if there is a token, do this
     if (_token) {
@@ -32,11 +31,13 @@ function App() {
         });
       });
     }
-    console.log('ı have token ', token);
   }, []);
-  console.log('***', user);
-  console.log('***', token);
-  return <div className='app'>{token ? <Player /> : <Login />}</div>;
+
+  return (
+    <div className='app'>
+      {token ? <Player spotify={spotify} /> : <Login />}
+    </div>
+  );
 }
 
 export default App;
