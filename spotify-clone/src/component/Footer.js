@@ -4,7 +4,15 @@ import '../css/Footer.css';
 function Footer() {
   return (
     <div className='footer'>
-      <h1>ı am footer</h1>
+      <div className='footer_left'>
+        <p>Album and song details</p>
+      </div>
+      <div className='footer_center'>
+        <p>Player controls</p>
+      </div>
+      <div className='footer_right'>
+        <p>Volume controls</p>
+      </div>
     </div>
   );
 }
