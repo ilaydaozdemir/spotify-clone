@@ -22,12 +22,12 @@
 
 ## How Did I Do
 
-SPOTIFY API
-User Authentication
-Responsive Design
-Material UI(icons)
-React Context API
-React Hooks Functional
+SPOTIFY API /
+User Authentication /
+Responsive Design /
+Material UI(icons) /
+React Context API /
+React Hooks Functional /
 Flexbox(css)
 
 ## Available Scripts
