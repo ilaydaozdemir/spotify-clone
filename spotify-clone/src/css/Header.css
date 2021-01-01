@@ -14,9 +14,12 @@
 }
 .header_left > input {
   border: none;
+
   width: 100%;
 }
-
+.header_left > input:focus {
+  outline: none;
+}
 .header_right {
   display: flex;
   align-items: center;
