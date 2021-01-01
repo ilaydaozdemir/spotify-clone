@@ -13,7 +13,15 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='footer_left'>
-        <p>Album and song details</p>
+        <img
+          className='footer_albumLogo'
+          src='https://foto.haberler.com/haber/2019/04/26/yuzyuzeyken-konusuruz-olsem-yeridir-11989041_4562_o.jpg'
+          alt=''
+        />
+        <div className='footer_song'>
+          <h4>Yüz Yüzeyken Konuşuruz</h4>
+          <p>Ateş Edecek Misin?</p>
+        </div>
       </div>
       <div className='footer_center'>
         <ShuffleIcon className='footer_green' />
