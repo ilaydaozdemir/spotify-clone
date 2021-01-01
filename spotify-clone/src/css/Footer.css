@@ -8,7 +8,9 @@
   background-color: #282828;
   padding: 20px;
 }
-
+.footer_right * .MuiSlider-root {
+  color: green;
+}
 .footer_left {
   flex: 0.3;
   display: flex;
@@ -31,6 +33,7 @@
 .footer_song > p {
   font-size: 12px;
 }
+
 .footer_center {
   flex: 0.4;
   padding: 0 100px;
